@@ -77,6 +77,12 @@ If you are using FxCop analyzers and StyleCop analyzer, it's very simple to enab
         projects: '**/*.csproj'
 ```
 
+## Enable Roslyn Support in Visual Studio Code
+
+The above steps also work in VS Code provided you enable Roslyn support for Omnisharp. The setting is `omnisharp.enableRoslynAnalyzers` and must be set to `true`. After enabling this setting you must "Restart Omnisharp" (this can be done from the Command Palette in VS Code or by restarting VS Code).
+
+![rosyln-support](./vscode-roslyn.png)
+
 ## Code Review Checklist
 
 * [ ] Does this code make correct use of [asynchronous programming constructs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/#BKMK_AsyncandAwait), including proper use of ```await``` and ```Task.WhenAll``` including CancellationTokens?
@@ -88,4 +94,4 @@ If you are using FxCop analyzers and StyleCop analyzer, it's very simple to enab
 * [ ] Is the code written in a way that causes boxing operations to happen?
 * [ ] Does the code [handle exceptions correctly](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/best-practices-for-exceptions)?
 * [ ] Is package management being used (NuGet) instead of committing DLLs?
-* [ ] Does this code us LINQ appropriately? Pulling LINQ into a project to replace a single short loop or in ways that do not perform well are usually not appropriate.
+* [ ] Does this code use LINQ appropriately? Pulling LINQ into a project to replace a single short loop or in ways that do not perform well are usually not appropriate.

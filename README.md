@@ -7,7 +7,7 @@ An engineer working for a [CSE](./CSE.md) project...
 * Leads by example. Models the behaviors we desire both interpersonally and technically.
 * Strives to understand how their work fits into a broader context and ensures the outcome.
 
-This our playbook. All contributions welcome! Please feel free to submit a pull request to get involved.
+This is our playbook. All contributions welcome! Please feel free to submit a pull request to get involved.
 
 ## Why Have A Playbook
 
@@ -43,8 +43,8 @@ A [breakdown of sections](SPRINT-STRUCTURE.md) according to the structure of an 
 
 ## Engineering Fundamentals
 
-* [Automated Testing](automated-testing/readme.md)
 * [Agile Development](agile-development/README.md)
+* [Automated Testing](automated-testing/readme.md)
 * [Code Reviews](code-reviews/README.md)
 * [Continuous Delivery (CD)](continuous-delivery/readme.md)
 * [Continuous Integration (CI)](continuous-integration/readme.md)
@@ -52,6 +52,7 @@ A [breakdown of sections](SPRINT-STRUCTURE.md) according to the structure of an 
 * [Design Reviews](design-reviews/readme.md)
 * [Developer Experience](developer-experience/readme.md)
 * [Engineering Feedback](engineering-feedback/readme.md)
+* [Machine Learning Fundamentals](ml-fundamentals/README.md)
 * [Observability](observability/readme.md)
 * [Security](security/README.md)
 * [Source Control](source-control/readme.md)
